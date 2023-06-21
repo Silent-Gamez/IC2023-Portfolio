@@ -1,6 +1,65 @@
 html {
-    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    margin: 0;
+  }
+  header {
+    background-color: #2d6fa4;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .card {
     color: white;
-}
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, dark-gray 25%, dark-blue 25%, dark-grey 25%, dark-blue 25%);
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    height: 100px;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  #survey {background-color: #5e12a6;}
+  #dark_mode_switch {background-color: #707070;}
+  #little_game {background-color: black;}
+  #animated_penguin {background-color: lightblue;}
+  
+  iframe {
+    margin: auto;
+  } 
+  
+  
