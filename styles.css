@@ -10,7 +10,7 @@ html {
   header {
     background-color: #2d6fa4;
     position: fixed;
-    width: 100%;
+    display: flex;
   }
   
   .card {
@@ -27,7 +27,7 @@ html {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(90deg, dark-gray 25%, dark-blue 25%, dark-grey 25%, dark-blue 25%);
+    background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
   }
   
   body, html {
@@ -35,7 +35,9 @@ html {
     margin: 0;
     font-family: Arial;
   }
-  
+  .navbar {
+    display: flex;
+  }
   .tablink {
     background-color: #555;
     color: white;
@@ -43,10 +45,7 @@ html {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
-    height: 100px;
   }
   
   .tablink:hover {
@@ -62,4 +61,15 @@ html {
     margin: auto;
   } 
   
-  
+  #right {
+    justify-content: left;
+  }
+  .nav-bar {
+    justify-content: right;
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+  }
