@@ -94,7 +94,7 @@ html {
   }
 
   .fade-effect {
-    animation: Fade 2s linear;
+    animation: Fade 4s linear;
   }
 
   @keyframes Fade {
@@ -155,10 +155,6 @@ html {
 
   #white {
     background-color: white;
-  }
-
-  #black {
-    background-color: black;
   }
 
   #orange {

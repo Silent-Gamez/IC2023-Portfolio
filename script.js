@@ -1,20 +1,7 @@
-function openPage(pageName, elmnt, color) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("card");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.backgroundColor = "";
-    }
-    document.getElementById(pageName).style.display = "block";
-    elmnt.style.backgroundColor = color;
-  }
-  
-  document.getElementById("defaultOpen").click();
 
-  // Let Hell
+ alert("Epilepsy Warning")
+ 
+ // Let Hell
   let blue = document.querySelector("#blue")
   let green = document.querySelector("#green")
   let purple = document.querySelector("#purple")
@@ -24,7 +11,6 @@ function openPage(pageName, elmnt, color) {
   let yellow = document.querySelector("#yellow")
   let pink = document.querySelector("#pink")
   let white = document.querySelector("#white")
-  let black = document.querySelector("#black")
   let orange = document.querySelector("#orange")
   let darkgreen = document.querySelector("#darkgreen")
   let navyblue = document.querySelector("#navyblue")
@@ -59,7 +45,50 @@ function openPage(pageName, elmnt, color) {
 
   }
 
-
+  // Animation/timeout hell
   function NextPage() {
-      blue.style.animation = "grow 0.5s linear"
+      blue.style.animation = "grow 0.3s linear forwards"
+      setTimeout(function(){
+        green.style.animation = "grow 0.3s linear forwards"
+        setTimeout(function(){
+          purple.style.animation = "grow 0.3s linear forwards"
+          setTimeout(function(){
+            red.style.animation = "grow 0.3s linear forwards"
+            setTimeout(function(){
+              lime.style.animation = "grow 0.3s linear forwards"
+              setTimeout(function(){
+                cyan.style.animation = "grow 0.3s linear forwards"
+                setTimeout(function(){
+                  yellow.style.animation = "grow 0.3s linear forwards"
+                  setTimeout(function(){
+                    pink.style.animation = "grow 0.3s linear forwards"
+                    setTimeout(function(){
+                      white.style.animation = "grow 0.3s linear forwards"
+                      setTimeout(function(){
+                        orange.style.animation = "grow 0.3s linear forwards"
+                        setTimeout(function(){
+                          darkgreen.style.animation = "grow 0.3s linear forwards"
+                          setTimeout(function(){
+                            navyblue.style.animation = "grow 0.3s linear forwards"
+                            setTimeout(function(){
+                              final.style.animation = "grow 0.3s linear forwards"
+                            },250);
+                          },250);
+                        },250);
+                    },250);
+                  },250);
+                },250);
+              },250);
+            },250);
+          },250);
+        },250);
+      },250);
+    },250);
   }
+
+
+
+  // random storage
+// setTimeout(function(){
+//   console.log('after');
+// },250);
