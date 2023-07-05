@@ -1,6 +1,8 @@
 html {
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    background-color: #2d6fa4;
   }
   
   * {
@@ -73,3 +75,205 @@ html {
     display: flex;
     width: 100%;
   }
+
+  .circle-storage {
+    display: flex;
+    justify-content: center;
+    align-items: Sticky;
+ 
+  }
+  .circle {
+    border-radius: 100ex;
+    height: 0px ;
+    width: 0px ;
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    z-index: 99;
+    margin-top: 50vh;
+    margin-left: 50vw;
+  }
+
+  .fade-effect {
+    animation: Fade 2s linear;
+  }
+
+  @keyframes Fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes grow {
+    from {
+      width: 0;
+      height: 0;
+      margin-top: 50vh;
+      margin-left: 50vh;
+    }
+    to {
+      width: 150%;
+      height: 150%;
+      margin-top: -22vh;
+      margin-left: -22vh;
+    }
+  }
+
+  #blue {
+    background-color: blue;
+  }
+
+  #green {
+    background-color: green;
+  }
+
+  #purple {
+    background-color: purple;
+  }
+  
+  #red {
+    background-color: red;
+  }
+
+  #lime {
+    background-color: lime;
+  }
+
+  #cyan {
+    background-color: cyan;
+  }
+
+  #yellow {
+    background-color: yellow;
+  }
+
+  #pink {
+    background-color: pink;
+  }
+
+  #white {
+    background-color: white;
+  }
+
+  #black {
+    background-color: black;
+  }
+
+  #orange {
+    background-color: orange;
+  }
+
+  #darkgreen {
+    background-color: darkgreen;
+  }
+
+  #navyblue {
+    background-color: navy;
+  }
+
+  #gray {
+    background-color: gray;
+  }
+
+  #darkgray {
+    background-color: darkgray;
+  }
+
+  #indigo {
+    background-color: indigo;
+  }
+
+  #silver {
+    background-color: silver;
+  }
+
+  #amethyst {
+    background-color: #9966cc;
+  }
+
+  #royal-purple {
+    background-color: #800080;
+  }
+
+  #brown {
+    background-color: #614913;
+  }
+
+  #caramel {
+    background-color: #926949;
+  }
+
+  #cardinal {
+    background-color: #c41e3a;
+  }
+
+  #chrome-yellow {
+    background-color: #ffa700;
+  }
+
+  #citrine {
+    background-color: #e4d00a;
+  }
+
+  #coffee {
+    background-color: #6f4e37;
+  }
+
+  #corn {
+    background-color: #fbec5d;
+  }
+
+  #silk {
+    background-color: #d1d1d1;
+  }
+
+  #gold {
+    background-color: gold;
+  }
+
+  #sea-green {
+    background-color: #2e8b57;
+  }
+
+  #violet {
+    background-color: violet;
+  }
+
+  #steelblue {
+    background-color: steelblue;
+  }
+
+  #drab {
+    background-color: #967117;
+  }
+
+  #fire-brick {
+    background-color: #b22222;
+  }
+
+  #dark-red {
+    background-color: darkred;
+  }
+
+  #hot-pink {
+    background-color: hotpink;
+  }
+
+  #lava {
+    background-color: #cf1020;
+  }
+
+  #lilac {
+    background-color: #c8a2c8;
+  }
+
+  #mint {
+    background-color: #3eb489;
+  }
+
+  #melon {
+    background-color: #fdbcb4;
+  }
+

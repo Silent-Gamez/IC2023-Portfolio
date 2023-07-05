@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=en>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Brenen A Sines</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section id="projects" class="projects">
+                
+            <button class="tablink" onclick="openPage('survey', this, '#5e12a6')">A small Survey</button>
+            <button class="tablink" onclick="openPage('dark_mode_switch', this, '#707070')" id="defaultOpen">A Dark mode switch</button>
+            <button class="tablink" onclick="openPage('little_game', this, 'black')">A little game</button>
+            <button class="tablink" onclick="openPage('animated_penguin', this, 'lightblue')">A animated penguin</button>
+            <div id="survey" class="card">
+            <iframe width="80%" height="360" src="https://html-survey.brenensines.repl.co"></iframe>
+            <a href="https://html-survey.brenensines.repl.co" >A survey</a>
+            </div>
+            <div id="dark_mode_switch" class="card">
+            <iframe width="80%" height="360" src="https://switch.brenensines.repl.co"></iframe>
+            <a href="https://switch.brenensines.repl.co" >A Dark mode switch</a>
+            </div>
+            <div id="little_game" class="card">
+            <iframe width="80%" height="360" src="https://text-based-game.brenensines.repl.co"></iframe>
+            <a href="https://text-based-game.brenensines.repl.co" >A little game</a>
+            </div>
+            <div id="animated_penguin" class="card">
+            <iframe width="80%" height="360" src="https://animated-penguin.brenensines.repl.co"></iframe>
+            <a href="https://animated-penguin.brenensines.repl.co" >a animated penguin</a>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
