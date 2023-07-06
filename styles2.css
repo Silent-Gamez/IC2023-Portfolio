@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color:cornflowerblue;
+    
+}
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#warning {
+    color: darkred;
+}
+
+.button {
+    margin-top: 2px;
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}

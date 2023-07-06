@@ -1,7 +1,4 @@
-
- alert("Epilepsy Warning")
- 
- // Let Hell
+// Let Hell
   let blue = document.querySelector("#blue")
   let green = document.querySelector("#green")
   let purple = document.querySelector("#purple")

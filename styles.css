@@ -86,7 +86,7 @@ html {
     border-radius: 100ex;
     height: 0px ;
     width: 0px ;
-    background-color: rgb(255, 0, 0);
+    background-color: #2d6fa4;
     position: fixed;
     z-index: 99;
     margin-top: 50vh;
