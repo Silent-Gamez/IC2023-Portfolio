@@ -11,10 +11,11 @@ html {
 
   }
   header {
-    background-color: #2d6fa4;
+    background-color:rgba(0, 0, 0, 0.3) ;
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
   }
   
   .card {
@@ -32,6 +33,7 @@ html {
   .nav-inner {
     height: 100%;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
   }
   
   .hero {
@@ -80,7 +82,11 @@ html {
   } 
   
   #right {
-    justify-content: left;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
   }
   .nav-bar {
     justify-content: right;
@@ -110,7 +116,7 @@ html {
   }
 
   .fade-effect {
-    animation: Fade 4s linear;
+    animation: Fade 3s linear;
   }
 
   @keyframes Fade {
@@ -289,3 +295,6 @@ html {
     background-color: #fdbcb4;
   }
 
+  .pages-backgrounds {
+    background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
+  }
