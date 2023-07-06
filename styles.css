@@ -8,11 +8,13 @@ html {
   * {
     padding: 0;
     margin: 0;
+
   }
   header {
     background-color: #2d6fa4;
     position: fixed;
     display: flex;
+    justify-content: flex-end;
   }
   
   .card {
@@ -20,6 +22,16 @@ html {
     display: none;
     padding: 100px 20px;
     height: 100%;
+  }
+
+  .nav-li {
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav-inner {
+    height: 100%;
+    width: 100%;
   }
   
   .hero {
@@ -37,9 +49,13 @@ html {
     margin: 0;
     font-family: Arial;
   }
-  .navbar {
+
+  #navbar {
     display: flex;
+    height: 100%;
+    width: 40%
   }
+
   .tablink {
     background-color: #555;
     color: white;
@@ -111,13 +127,13 @@ html {
       width: 0;
       height: 0;
       margin-top: 50vh;
-      margin-left: 50vh;
+      margin-left: 50vw;
     }
     to {
       width: 150%;
       height: 150%;
       margin-top: -22vh;
-      margin-left: -22vh;
+      margin-left: -22vw;
     }
   }
 
