@@ -90,7 +90,7 @@
 //   console.log('after');
 // },250);
 opened = 0
-function open_menu {
+function open_menu() {
   if (opened === 0) {
     document.querySelector("#color_menu").style.display = "flex";
     opened = 1;

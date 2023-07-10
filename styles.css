@@ -9,7 +9,7 @@
 html {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #2d6fa4;
   }
   
@@ -328,7 +328,9 @@ html {
   }
 
   #meName {
-    width: 250px;
+    /* background-color: red; */
+    padding-left: 30px;
+    /* width: 250px; */
     font-family: 'Cherry Swash', cursive;
   }
 
@@ -340,3 +342,16 @@ html {
       font-size: 50px
     }
   }
+
+  #color_menu {
+    background-color:rgba(0, 0, 0, 0.5) ;
+    display: hidden;
+    position: fixed;
+    margin: auto;
+    width: 70vw;
+    height: 80vh;
+    z-index: 98;
+    flex-direction: column-reverse;
+  }
+
+ 
