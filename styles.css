@@ -3,6 +3,7 @@
   --second-var: filter:brightness(var(--main-var), 60%) ;
   --third-var: filter:brightness(var(--main-var), 10%);
 }
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
 
 
 html {
@@ -15,7 +16,8 @@ html {
   * {
     padding: 0;
     margin: 0;
-
+    text-align: center;
+    color:rgba(0, 0, 0, 0.9) ;
   }
   header {
     background-color:rgba(0, 0, 0, 0.3) ;
@@ -48,9 +50,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Cherry Swash', cursive;
     width: 100%;
     height: 100vh;
     background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
+    animation: Text-Grow 3s linear forwards;
   }
   
   body, html {
@@ -90,7 +94,7 @@ html {
   
   #right {
     color: white;
-    margin: 0;
+    margin: auto;
     padding: 0; 
     text-decoration: none;
     width: 96%;
@@ -325,13 +329,14 @@ html {
 
   #meName {
     width: 250px;
+    font-family: 'Cherry Swash', cursive;
   }
 
   @keyframes Text-Grow {
     from {
-
+      font-size: 0;
     }
     to {
-
+      font-size: 50px
     }
   }
