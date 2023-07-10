@@ -92,3 +92,4 @@
 //Thanks to Renancouto for the code
 var root = document.querySelector(':root');
 var rootStyles = getComputedStyle(root);
+let MainVar = rootStyles.getPropertyValue(' --main-var');

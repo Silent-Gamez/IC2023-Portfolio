@@ -1,7 +1,7 @@
 :root {
   --main-var: #2d6fa4;
-  --second-var: filter:brightness(80%) ;
-  --third-var: ;
+  --second-var: filter:brightness(var(--main-var), 60%) ;
+  --third-var: filter:brightness(var(--main-var), 10%);
 }
 
 
@@ -89,11 +89,14 @@ html {
   } 
   
   #right {
-    justify-content: center;
     color: white;
-    margin: auto;
-    text-align: center;
+    margin: 0;
+    padding: 0; 
     text-decoration: none;
+    width: 96%;
+    display:inline-flex;
+    justify-content: center;
+    text-align: center;
   }
   .nav-bar {
     justify-content: right;
@@ -304,4 +307,31 @@ html {
 
   .nav-li .nav-inner:hover {
       filter: brightness(85%);
+  }
+
+  #menu-button {
+    width: 30px;
+    height: 30px;
+    display: inline !important;
+  }
+
+  #menu-button-img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin:0;
+    padding:0;
+  }
+
+  #meName {
+    width: 250px;
+  }
+
+  @keyframes Text-Grow {
+    from {
+
+    }
+    to {
+
+    }
   }
