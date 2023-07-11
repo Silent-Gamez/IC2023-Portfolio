@@ -53,14 +53,17 @@
       
     </div>
     <div id="container">
-    <header id="header" class="header">
-      <a id="right" href="mainWithani.html"><h3>Brenen Sines</h3></a>
-      <nav class="nav-bar">
-          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'AboutMeANI.html' },4000);"><button class="nav-inner" onclick="NextPage()">About Me</button></a>
-          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'ProjectspageANI.html' },4000);"><button class="nav-inner" onclick="NextPage()">Projects</button></a>
-          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'ContactPageANI.html' },4000);"><button class="nav-inner" onclick="NextPage()">Contact</button></a>
-      </nav>
-    </header>
+      <header id="header" class="header">
+        <div class="menu-button">
+          <a id="right" href="mainWithoutani.html"><h3 id="meName">Brenen Sines</h3></a>
+          <img onclick="open_menu()" id="menu-button-img" src="./menu.jpg">
+        </div>
+        <nav class="nav-bar">
+          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'AboutMeANI.html' },900);"><button class="nav-inner" onclick="NextPage()">About Me</button></a>
+          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'ProjectspageANI.html' },900);"><button class="nav-inner" onclick="NextPage()">Projects</button></a>
+          <a class="nav-li" href="javascript:setTimeout(()=>{window.location = 'ContactPage.htmlANI' },900);"><button class="nav-inner" onclick="NextPage()">Contact</button></a>
+        </nav>
+      </header>
       <main>
         <section id="welcome-section" class="hero">
           <h1 class="black-box"> Im Brenen Sines</h1>
@@ -68,7 +71,12 @@
         </section>
       </main>
     </div>
+    <div id="color_menu">
+      <input id="color-input" type="color"></input>
+      <button onclick="" >Change color</button>
+    </div>
   </div>
+  <h1>If you see this something went wrong</h1>
   <script src="script.js"></script>
 </body>
 </html>
