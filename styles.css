@@ -52,7 +52,7 @@ html {
     align-items: center;
     font-family: 'Cherry Swash', cursive;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
     animation: Text-Grow 3s linear forwards;
   }
@@ -345,8 +345,8 @@ html {
 
   #color_menu {
     background-color:rgba(0, 0, 0, 0.5) ;
-    display: hidden;
-    position: fixed;
+    display: flex;
+    /* position: fixed; */
     margin: auto;
     width: 70vw;
     height: 80vh;
@@ -367,6 +367,6 @@ html {
  }
 
  .pages-backgrounds {
-  background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
+  background: linear-gradient(90deg, var(--third-var) 0%, var(--second-var) 25%, var(--main-var) 50%, var(--second-var) 75%, var(--third-var) 100%);
   height: 100vh;
  }

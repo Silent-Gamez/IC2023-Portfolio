@@ -105,3 +105,7 @@ function open_menu() {
 var root = document.querySelector(':root');
 var rootStyles = getComputedStyle(root);
 let MainVar = rootStyles.getPropertyValue(' --main-var');
+function updateColor() {
+  let Setbackground = document.getElementById("color-input").value;
+  root.style.setProperty('--main-var', Setbackground);
+}
