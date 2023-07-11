@@ -52,7 +52,7 @@ html {
     align-items: center;
     font-family: 'Cherry Swash', cursive;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background: linear-gradient(90deg, rgba(4,4,55,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 75%, rgba(4,4,55,1) 100%);
     animation: Text-Grow 3s linear forwards;
   }
@@ -373,7 +373,7 @@ html {
 
  #img-Fix {
   width: 60%;
-  height: 900px;
+  height: 80%;
  }
 
  #AboutMe {
